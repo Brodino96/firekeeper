@@ -5,6 +5,6 @@ lua54 "yes"
 
 author "Brodino"
 
-shared_script "config.lua"
+shared_scripts {"config.lua", "@ox_lib/init.lua"}
 server_script "server.lua"
 client_script "client.lua"
